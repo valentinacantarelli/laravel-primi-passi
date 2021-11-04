@@ -13,11 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/', function () {
-    return view('home');
+    $data=[
+        "nome"=>"Il Castello Errante di Howl",
+        "regista"=>"Hayao Miyazaki",
+        "dataDiUscita"=>2004
+    ];
+    return view('home',$data);
 });
 Route::get('/chi-siamo', function () {
     return view('chisiamo');

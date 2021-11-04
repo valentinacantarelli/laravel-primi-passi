@@ -23,6 +23,7 @@
             text-align: center;
             padding: 20px 10px;
             margin-top: 75px;
+            border-radius: 5px;
         }
         ul{
             display:flex;

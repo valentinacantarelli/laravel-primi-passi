@@ -23,6 +23,7 @@
             text-align: center;
             padding: 20px 10px;
             margin-top: 75px;
+            border-radius: 5px;
         }
         ul{
             display: flex;
@@ -42,6 +43,10 @@
 			<li><a href="/chi-siamo">Chi siamo</a></li>
 			<li><a href="/dove">Dove andiamo?</a></li>
 		</ul>
+        <div>
+            <h4>Film</h4>
+            {{$nome}}, del regista {{$regista}} è un film uscito nel {{$dataDiUscita}}.
+        </div>
     </div>
 </body>
 </html>
